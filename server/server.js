@@ -137,5 +137,5 @@ app.patch('/api/delivery/:id', (req, res) => {
 
 
 
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 app.listen(PORT, () => console.log(`✅ Сервер запущен на порту ${PORT}`))
