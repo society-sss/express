@@ -21,8 +21,8 @@ const kyrgyzRegions = [
 const FormOrder = () => {
     const formData = useAppSelector((state) => state.delivery.formData)
     const dispatch = useAppDispatch()
-    const [packageFile, setPackageFile] = useState<File | null>(null)
-    const [previewUrl, setPreviewUrl] = useState<string | null>(null)
+    const [_packageFile, setPackageFile] = useState<File | null>(null)
+    const [_previewUrl, setPreviewUrl] = useState<string | null>(null)
 
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
