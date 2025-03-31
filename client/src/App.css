@@ -1,0 +1,32 @@
+
+:root {
+  --primary-color: #FFCC00;
+  --primary-dark: #FFA000;
+  --primary-light: #FFE066;
+  --dark-color: #333;
+  --light-color: #fff;
+  --gray-color: #f5f5f5;
+  --text-color: #333;
+  --text-light: #666;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'YS Text', 'Arial', sans-serif;
+}
+
+body {
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.container {
+  /* width: 100%; */
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
